@@ -22,7 +22,7 @@ public class GenericMethods {
         Properties properties = new Properties();
         try {
 
-            FileInputStream fis = new FileInputStream("C:\\Users\\Hozefaa\\IdeaProjects\\restassured\\src\\test\\java\\twitter\\utils\\env.properties");
+            FileInputStream fis = new FileInputStream("C:\\Development\\restassured\\src\\test\\java\\gmaps\\utils\\env.properties");
             properties.load(fis);
         } catch (IOException exception) {
             System.out.println(exception.getMessage());

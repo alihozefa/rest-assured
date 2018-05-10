@@ -3,11 +3,12 @@
 <suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
   <test name="Surefire test(failed)">
     <classes>
-      <class name="gmaps.tests.json.GetTest">
+      <class name="twitter.tests.PostAndUpdateTweetsTest">
         <methods>
-          <include name="getAPITest"/>
+          <include name="postTweet"/>
+          <include name="tweetDelete"/>
         </methods>
-      </class> <!-- gmaps.tests.json.GetTest -->
+      </class> <!-- twitter.tests.PostAndUpdateTweetsTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

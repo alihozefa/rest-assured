@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import twitter.utils.PayloadProvider;
 import twitter.utils.ResourceProvider;
 
-public class PostAndUpdateTweets {
+public class PostAndUpdateTweetsTest {
 
     ResourceProvider resource = new ResourceProvider();
     PayloadProvider payload = new PayloadProvider();

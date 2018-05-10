@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Ultimate API" verbose="1" >
+    <test name="Google maps tests"   >
+        <packages>
+            <package name="gmaps.tests.json" />
+        </packages>
+    </test>
+
+    <test name="Twitter API Testing"   >
+        <packages>
+            <package name="twitter.tests" />
+        </packages>
+    </test>
+</suite>

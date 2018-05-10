@@ -6,7 +6,7 @@ import io.restassured.response.Response;
 import org.testng.annotations.Test;
 import twitter.utils.ResourceProvider;
 
-public class GetTweets {
+public class GetTweetsTest {
 
     public ResourceProvider resource = new ResourceProvider();
 
